@@ -1,0 +1,33 @@
+#NEXUS
+[R-package APE, Sun Apr 21 15:33:56 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 10;
+	TAXLABELS
+		Monodelphis_domestica
+		Oryctolagus_cuniculus
+		Cavia_porcellus
+		Rattus_norvegicus
+		Homo_sapiens
+		Bos_taurus
+		Ovis_aries
+		Equus_caballus
+		Felis_catus
+		Canis_lupus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Monodelphis_domestica,
+		2	Oryctolagus_cuniculus,
+		3	Cavia_porcellus,
+		4	Rattus_norvegicus,
+		5	Homo_sapiens,
+		6	Bos_taurus,
+		7	Ovis_aries,
+		8	Equus_caballus,
+		9	Felis_catus,
+		10	Canis_lupus
+	;
+	TREE * UNTITLED = [&R] (1:172.7671,(((2:70.8296,(3:61.3488,4:61.3487):9.4809):4.8925,5:75.7221):8.1326,((6:33.5961,7:33.5961):39.0725,(8:69.9346,(9:54.241,10:54.241):15.6935):2.7341):11.186):88.9125);
+END;
